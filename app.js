@@ -10,3 +10,5 @@ if(age >= 18){
   alert('sorry you are under age some section will be blocked')
 }
 confirm('If You love to Support us Please see the section About Liverpool');
+
+var Email= prompt(`Enter Your Email to Subscribe For News`)
