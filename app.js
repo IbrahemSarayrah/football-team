@@ -11,4 +11,26 @@ if(age >= 18){
 }
 confirm('If You love to Support us Please see the section About Liverpool');
 
-var Email= prompt(`Enter Your Email to Subscribe For News`)
+var Email= prompt(`Enter Your Email to Subscribe For News`);
+
+var playerName= prompt('Please Enter the name of your fav player');
+
+while (playerName !== 'mohamed' && playerName !== 'james' ){
+  playerName =prompt('please enter mohamed or james')
+}
+
+var playerChoose ;
+
+if (playerName === `mohamed`) {
+  playerChoose= ('<img src="https://resources.premierleague.com/premierleague/photo/2020/06/09/91b209a3-1e87-47d2-beeb-0cdef23c93d1/2020-02-01T165121Z_1905305979_RC2SRE9R3CBK_RTRMADP_3_SOCCER-ENGLAND-LIV-SOU-REPORT.JPG">')
+}else if (playerName === 'james') {
+  playerChoose= '<img src="https://cdn.mos.cms.futurecdn.net/hMVwxExU4n2wxCgbWhhkGe.jpg">'
+}
+
+var imgNumber= prompt('how many time you want to see your fav player')
+
+for (var i=0 ; i < imgNumber; i++){
+  document.write(playerChoose)
+}
+
+
