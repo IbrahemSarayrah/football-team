@@ -1,0 +1,35 @@
+header {
+  background-color: #E62200;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+body header nav ul li {
+  display: inline;
+  margin: 10px;
+  font-size: 20px;
+  font-color: white;
+}
+body header nav ul {
+  text-align: center;
+}
+body main article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  background-color: #F0E9CC;
+
+}
+body main article p {
+  font-size: 20px;
+color: rgb(99, 21, 8)
+}
+
+footer{
+  text-align: center;
+}
